@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MdButtonModule, MdSelectModule } from '@angular/material';
+import { MdButtonModule, MdSelectModule, MdChipsModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +11,8 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     MdButtonModule,
-    MdSelectModule
+    MdSelectModule,
+    MdChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
